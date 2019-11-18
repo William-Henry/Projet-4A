@@ -1,4 +1,4 @@
-package com.example.projet;
+package com.example.projet.Controller;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.projet.Model.F1;
+import com.example.projet.R;
 
 import java.util.List;
 

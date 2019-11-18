@@ -1,4 +1,4 @@
-package com.example.projet;
+package com.example.projet.Model;
 
 public class F1 {
     private String raceName;

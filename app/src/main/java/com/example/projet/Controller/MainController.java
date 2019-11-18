@@ -1,7 +1,10 @@
-package com.example.projet;
+package com.example.projet.Controller;
 
 import android.util.Log;
 
+import com.example.projet.Model.F1;
+import com.example.projet.View.MainActivity;
+import com.example.projet.RestF1Api;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

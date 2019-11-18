@@ -1,4 +1,6 @@
-package com.example.projet;
+package com.example.projet.Controller;
+
+import com.example.projet.Model.F1;
 
 import java.util.List;
 
