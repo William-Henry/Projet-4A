@@ -11,8 +11,9 @@
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/menuAbout"
-        android:title="About" />
+        android:id="@+id/calendar"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Calendar" />
 
     <item
         android:id="@+id/menuSettings"
