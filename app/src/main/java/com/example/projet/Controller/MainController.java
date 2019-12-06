@@ -3,6 +3,7 @@ package com.example.projet.Controller;
 import android.util.Log;
 
 import com.example.projet.Model.F1;
+import com.example.projet.View.Calendar_fragment;
 import com.example.projet.View.MainActivity;
 import com.example.projet.RestF1Api;
 import com.google.gson.Gson;
@@ -18,9 +19,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainController {
 
-    private MainActivity activity;
+    private Calendar_fragment activity;
 
-    public MainController(MainActivity mainActivity) {
+    public MainController(Calendar_fragment mainActivity) {
         this.activity = mainActivity;
     }
 
