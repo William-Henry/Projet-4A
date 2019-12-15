@@ -15,4 +15,14 @@ public class RestF1Response {
     public void setResults(List<F1> results) {
         this.races = results;
     }
+
+    private List<F1> members;
+
+    public List<F1> getResults2() {
+        return members;
+    }
+
+    public void setResults2(List<F1> results2) {
+        this.members = results2;
+    }
 }

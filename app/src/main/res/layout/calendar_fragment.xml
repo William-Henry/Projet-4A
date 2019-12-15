@@ -12,7 +12,8 @@
         android:layout_width="@dimen/avator_size"
         android:layout_height="@dimen/avator_size"
         android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/ic_f1_round" />
+
+         />
 
     <TextView
         android:id="@+id/calendar_fragment"

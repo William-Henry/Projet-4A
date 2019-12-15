@@ -1,6 +1,5 @@
 package com.example.projet.Controller;
 
-import android.graphics.drawable.Icon;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,21 +12,19 @@ import com.example.projet.R;
 
 import java.util.List;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
+public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.CelluleJava> {
     private List<F1> listValues;
 
     public class CelluleJava extends RecyclerView.ViewHolder {
-        public TextView txtHeader;
-        public TextView txtFooter;
-        public ImageView image;
+        public TextView txtHeader2;
+        public ImageView image2;
         public View layout;
 
         public CelluleJava(View v) {
             super(v);
             layout = v;
-            txtHeader = (TextView) v.findViewById(R.id.calendar_fragment);
-            //txtFooter = (TextView) v.findViewById(R.id.secondLine);
-            image = v.findViewById(R.id.list_image);
+            txtHeader2 = (TextView) v.findViewById(R.id.team_fragment);
+            image2 = v.findViewById(R.id.team_image);
         }
     }
 
@@ -41,14 +38,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
         notifyItemRemoved(position);
     }*/
 
-    public MyAdapter(List<F1> listValues) {
+    public MyAdapter2(List<F1> listValues) {
         this.listValues = listValues;
     }
 
     @Override
     public CelluleJava onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View v = inflater.inflate(R.layout.calendar_fragment, parent, false);
+        View v = inflater.inflate(R.layout.team_fragment, parent, false);
         CelluleJava vh = new CelluleJava(v);
         return vh;
     }
@@ -57,10 +54,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
     public void onBindViewHolder(CelluleJava holder, final int position) {
 
         F1 currentF1 = listValues.get(position);
-        final String name = currentF1.getRaceName();
-        //final String map = currentF1.getCircuitMap();
-        holder.txtHeader.setText(name);
-        //holder.image.setImageLevel(map);
+        final String name2 = currentF1.getTeamName();
+        holder.txtHeader2.setText(name2);
 
         /*holder.txtHeader.setOnClickListener(new View.OnClickListener() {
             @Override

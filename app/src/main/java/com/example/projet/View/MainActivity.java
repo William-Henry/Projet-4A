@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
         adapter.addFragment(new Calendar_fragment(), "Calendar");
-        adapter.addFragment(new Team_fragment(), "Team");
+        adapter.addFragment(new Team_fragment(), "Teams");
         viewPager.setAdapter(adapter);
     }
 

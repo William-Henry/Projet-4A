@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
     android:padding="@dimen/md_keylines">
+
+    <ImageView
+        android:id="@+id/team_image"
+        android:layout_width="@dimen/avator_size"
+        android:layout_height="@dimen/avator_size"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_f1_round" />
+
     <TextView
-        android:id="@+id/tile_text"
-        android:layout_width="wrap_content"
+        android:id="@+id/team_fragment"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Tiles" />
-</LinearLayout>
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/team_image"
+        android:gravity="center"
+        android:text="Teams"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        />
+
+</RelativeLayout>

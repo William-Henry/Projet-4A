@@ -54,6 +54,7 @@ public class Calendar_fragment extends Fragment {
                 intent.putExtra("locality", f1.getLocality());
                 intent.putExtra("country", f1.getCountry());
                 intent.putExtra("circuiturl", f1.getCircuiturl());
+                //intent.putExtra("circuitMap", f1.getCircuitMap());
                 startActivity(intent);
             }
 
