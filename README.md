@@ -25,7 +25,7 @@ Projet androïd de quatrième année d'école d'ingénieur.
   <img src="https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526060.png" width="200" height="400" />
   
   - Une toolbar
-  - Une barre de rechercher
+  - Une barre de recherche
   ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526016.png)
   
   - Un écran de démarrage ou Splash screen
