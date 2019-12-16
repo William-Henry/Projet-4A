@@ -14,12 +14,14 @@ Projet androïd de quatrième année d'école d'ingénieur.
   
 - Présentation de l'application :
   Cette application mobile possède les caractéristiques suivantes :
-  - Des fragments pour afficher la liste des Grands Prix du championnat de Formule 1 2019, ainsi que les équipes présentes.
+  - Des fragments pour afficher la liste des Grands Prix du championnat de Formule 1 2019, ainsi que les équipes présentes
   ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576525995.png)
   ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526000.png)
   
-  Cette application affiche sur son deuxième écran le description de chaque épreuve.
+  - Un deuxième écran où apparait la description de chaque épreuve
   ![Alt text](https://github.com/William-Henry/Projet/blob/master/Screenshot_1553638343.png)
+  
+  - Un logo sur le menu Home du téléphone
   ![Alt text](https://github.com/William-Henry/Projet/blob/master/Screenshot_1553638369.png)
   
   
