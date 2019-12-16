@@ -36,29 +36,34 @@ Projet androïd de quatrième année d'école d'ingénieur.
   Pour réaliser cette application, j'ai réaliser les étapes suivantes :
   - Création d'une RecyclerView
   - Trouver et utiliser une API Rest
-  - Création de plusieurs activités pour avoir plusieurs écrans.
+  - Création de plusieurs activités pour avoir plusieurs écrans
+  - Création et utilisation de fragments
+  - Création et utilisation d'une toolbar
+  
   
   
 - Ce que contient l'application :
-  - Une liste avec RecyclerView
-  - La mise en place d'une API Rest
+  - Une liste avec RecyclerView :
+    - Des informations texte
+    - Des images
+  - La mise en place d'un appel WebService à une API Rest
   - Plusieurs écrans
   - Plusieurs activités
+  - Des fragments
+  - Une toolbar
+  - Une barre de recherche
+  - Un slash screen
+  - Un logo sur la Home du téléphone
   - Liens entre les activités
-  - Une architecture MVP :
-    - Modèle : Une classe qui contiendra notre modèle
-    - Présenteur : Il s’agit de l’Activity (ou fragment)
-    - Vue : Cela correspond aux fichiers layout en .XML
-
-
-- Amélioration possibles :
-  - Mise en place d'un système de stockage des données en cache
-  - Mise en place d'annimations entre les écrans
+  - Une architecture MVC :
+    - Modèle
+    - Controller
+    - Vue
   
 
+
 - À propos de l'API :
-  Les informations présentes dans l'API viennent du site http://ergast.com/mrd/
-  Cependant j'ai rencontré quelques soucis pour l'utiliser. Pour pouvoir utiliser l'API, j'ai créé un fichier.json que j'ai importer sur Github.
+  J'utilise une API REST que j'héberge sur un repository de mon GitHub.
 
 
-NB : pour les utilisateurs de MacOS, il est possible que le Mac bloque la connexion internet de l'émulateur android. Pour cela, il faut créer un DNS dans les préférences système.
+NB : pour les utilisateurs de MacOS, il est possible que le Mac bloque la connexion internet de l'émulateur android. Pour cela, il faut créer un DNS 8.8.8.8 dans les préférences système.
