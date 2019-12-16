@@ -24,6 +24,13 @@ Projet androïd de quatrième année d'école d'ingénieur.
   - Un logo sur le menu Home du téléphone
   <img src="https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526060.png" width="200" height="400" />
   
+  - Une toolbar
+  - Une barre de rechercher
+  ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526016.png)
+  
+  - Un écran de démarrage ou Splash screen
+  ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526042.png)
+  
   
 - Réalisation de l'application :
   Pour réaliser cette application, j'ai réaliser les étapes suivantes :
