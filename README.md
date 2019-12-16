@@ -22,7 +22,7 @@ Projet androïd de quatrième année d'école d'ingénieur.
   ![Alt text](https://github.com/William-Henry/Projet/blob/master/Screenshot_1553638343.png)
   
   - Un logo sur le menu Home du téléphone
-  ![Alt text](https://github.com/William-Henry/Projet/blob/master/Screenshot_1553638369.png)
+  ![Alt text](https://github.com/William-Henry/Projet-4A/blob/master/Screenshot_1576526060.png)
   
   
 - Réalisation de l'application :
