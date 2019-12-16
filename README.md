@@ -43,12 +43,14 @@ Projet androïd de quatrième année d'école d'ingénieur.
   
   
 - Ce que contient l'application :
+  - Du design
   - Une liste avec RecyclerView :
     - Des informations textes
     - Des images
   - La mise en place d'un appel WebService à une API Rest
   - Plusieurs écrans
   - Plusieurs activités
+  - Du material design
   - Des fragments
   - Une toolbar
   - Une barre de recherche
