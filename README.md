@@ -1,10 +1,16 @@
 # Projet F1 Calendar 2019
 
-- Énoné :
+- Introduction :
+Projet androïd de quatrième année d'école d'ingénieur. 
+
+- Énoncé :
   Création d'une application mobile avec :
   - Deux écrans : Un écran avec une liste et un écran avec un détail de l’item
   - Appel WebService à une API Rest.
-  
+  - Architecture MVC
+  - Utilisation de fragments
+  - Material Design
+  - Git
   
 - Présentation de l'application :
   Cette application mobile affiche la liste des Grands Prix du championnat de Formule 1 de cette année(2019).
