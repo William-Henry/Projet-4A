@@ -11,8 +11,7 @@
         android:id="@+id/team_image"
         android:layout_width="@dimen/avator_size"
         android:layout_height="@dimen/avator_size"
-        android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/ic_f1_round" />
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/team_fragment"

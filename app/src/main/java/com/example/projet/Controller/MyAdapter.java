@@ -1,5 +1,6 @@
 package com.example.projet.Controller;
 
+import android.content.Context;
 import android.graphics.drawable.Icon;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,11 +11,13 @@ import android.widget.TextView;
 
 import com.example.projet.Model.F1;
 import com.example.projet.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
     private List<F1> listValues;
+    public Context context;
 
     public class CelluleJava extends RecyclerView.ViewHolder {
         public TextView txtHeader;
@@ -28,6 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
             txtHeader = (TextView) v.findViewById(R.id.calendar_fragment);
             //txtFooter = (TextView) v.findViewById(R.id.secondLine);
             image = v.findViewById(R.id.list_image);
+            context = itemView.getContext();
         }
     }
 
@@ -60,7 +64,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.CelluleJava> {
         final String name = currentF1.getRaceName();
         //final String map = currentF1.getCircuitMap();
         holder.txtHeader.setText(name);
-        //holder.image.setImageLevel(map);
+        Picasso.with(context).load(currentF1.getCircuitMap()).resize(104,104).into(holder.image);
 
         /*holder.txtHeader.setOnClickListener(new View.OnClickListener() {
             @Override

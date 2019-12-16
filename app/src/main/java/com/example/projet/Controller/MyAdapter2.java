@@ -1,5 +1,6 @@
 package com.example.projet.Controller;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,11 +10,13 @@ import android.widget.TextView;
 
 import com.example.projet.Model.F1;
 import com.example.projet.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
 public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.CelluleJava> {
     private List<F1> listValues;
+    public Context context;
 
     public class CelluleJava extends RecyclerView.ViewHolder {
         public TextView txtHeader2;
@@ -25,6 +28,7 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.CelluleJava> {
             layout = v;
             txtHeader2 = (TextView) v.findViewById(R.id.team_fragment);
             image2 = v.findViewById(R.id.team_image);
+            context = itemView.getContext();
         }
     }
 
@@ -56,6 +60,7 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.CelluleJava> {
         F1 currentF1 = listValues.get(position);
         final String name2 = currentF1.getTeamName();
         holder.txtHeader2.setText(name2);
+        Picasso.with(context).load(currentF1.getLogo()).resize(104,104).into(holder.image2);
 
         /*holder.txtHeader.setOnClickListener(new View.OnClickListener() {
             @Override

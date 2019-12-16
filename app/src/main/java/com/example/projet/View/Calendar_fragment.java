@@ -1,6 +1,8 @@
 package com.example.projet.View;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
@@ -11,12 +13,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.projet.Controller.MainController;
 import com.example.projet.Controller.MyAdapter;
 import com.example.projet.Model.F1;
 import com.example.projet.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 

@@ -48,7 +48,7 @@ public class Team_fragment extends Fragment {
         recyclerView.addOnItemTouchListener(new Click(getActivity().getApplicationContext(), recyclerView, new Click.ClickListener() {
             public void onClick(View view, int position) {
                 F1 f1 = input.get(position);
-                Intent intent = new Intent(getActivity().getApplicationContext(), Main2Activity.class);
+                Intent intent = new Intent(getActivity().getApplicationContext(), Main3Activity.class);
                 intent.putExtra("team", f1.getTeamName());
                 startActivity(intent);
             }

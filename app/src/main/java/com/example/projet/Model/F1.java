@@ -9,6 +9,7 @@ public class F1 {
     private String country;
     private String round;
     private String circuiturl;
+    private String logo;
     //private String url;
 
     public String getRaceName() {
@@ -33,6 +34,14 @@ public class F1 {
 
     public void setCircuitName(String name) {
         this.circuitName = name;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
     }
 
     public String getCircuitMap() {
