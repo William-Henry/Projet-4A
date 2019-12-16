@@ -1,7 +1,11 @@
-package com.example.projet;
+package com.example.projet.Controller;
 
 import android.util.Log;
 
+import com.example.projet.Model.F1;
+import com.example.projet.View.MainActivity;
+import com.example.projet.RestF1Api;
+import com.example.projet.View.Team_fragment;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -13,12 +17,12 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class MainController {
+public class MainController2 {
 
-    private MainActivity activity;
+    private Team_fragment activity2;
 
-    public MainController(MainActivity mainActivity) {
-        this.activity = mainActivity;
+    public MainController2(Team_fragment mainActivity) {
+        this.activity2 = mainActivity;
     }
 
     public void onStart(){
@@ -39,8 +43,8 @@ public class MainController {
             public void onResponse(Call<RestF1Response> call, Response<RestF1Response> response) {
                 if (response.isSuccessful()) {
                     RestF1Response restF1Response = response.body();
-                    List<F1> listF1 = restF1Response.getResults();
-                    activity.showList(listF1);
+                    List<F1> listF1 = restF1Response.getResults2();
+                    activity2.showList(listF1);
                 } else {
                     System.out.println(response.errorBody());
                 }

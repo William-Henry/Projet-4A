@@ -1,12 +1,15 @@
-package com.example.projet;
+package com.example.projet.Model;
 
 public class F1 {
     private String raceName;
+    private String team;
     private String circuitName;
+    private String circuitMap;
     private String locality;
     private String country;
     private String round;
     private String circuiturl;
+    private String logo;
     //private String url;
 
     public String getRaceName() {
@@ -17,12 +20,36 @@ public class F1 {
         this.raceName = name;
     }
 
+    public String getTeamName() {
+        return team;
+    }
+
+    public void setTeam(String team) {
+        this.team = team;
+    }
+
     public String getCircuitName() {
         return circuitName;
     }
 
     public void setCircuitName(String name) {
         this.circuitName = name;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
+
+    public String getCircuitMap() {
+        return circuitMap;
+    }
+
+    public void setCircuitMap(String map) {
+        this.circuitMap = map;
     }
 
     public String getLocality() {
